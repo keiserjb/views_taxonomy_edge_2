@@ -1,0 +1,6 @@
+name = Taxonomy Edge for Views
+description = "Provides the Views module with optimized filtering for taxonomy with depth"
+package = Views
+backdrop = 1.x
+type = module
+

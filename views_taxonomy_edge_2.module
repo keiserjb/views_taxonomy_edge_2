@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @todo Please document this function.
+ * @see http://drupal.org/node/1354
+ */
+function views_taxonomy_edge_2_views_api() {
+  return array('api' => '3');
+}
+
+/**
+ * Implements hook_autoload_info().
+ */
+function views_taxonomy_edge_2_autoload_info() {
+  return array(
+    'views_taxonomy_edge_2_handler_argument_term_edge_node_tid_depth' => 'handlers/views_taxonomy_edge_2_handler_argument_term_edge_node_tid_depth.inc',
+    'views_taxonomy_edge_2_handler_relationship_node_term_edge' => 'handlers/views_taxonomy_edge_2_handler_relationship_node_term_edge.inc',
+  );
+}
+
+?>
+
+
+
