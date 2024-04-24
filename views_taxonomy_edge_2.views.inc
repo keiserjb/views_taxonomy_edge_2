@@ -27,11 +27,11 @@ function views_taxonomy_edge_2_views_data() {
     ),
   );
 
-  $data['taxonomy_term_edge']['vid'] = array(
+  $data['taxonomy_term_edge']['vocabulary'] = array(
     'title' => t('Vocabulary'),
     'help' => t('Filter the results of "Taxonomy: Term" to a particular vocabulary.'),
     'filter' => array(
-      'handler' => 'views_handler_filter_vocabulary_vid',
+      'handler' => 'views_handler_filter_vocabulary',
     ),
   );
 
